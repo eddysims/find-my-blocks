@@ -16,8 +16,8 @@ if ( ! function_exists( 'find_my_blocks_register_options_page' ) ) :
 	 */
 	function find_my_blocks_register_options_page() {
 		add_management_page(
-			'Find My Blocks',
-			'Find My Blocks',
+			esc_html__( 'Find My Blocks', 'find-my-blocks' ), 
+			esc_html__( 'Find My Blocks', 'find-my-blocks' ),
 			'edit_posts',
 			'find-my-blocks',
 			'find_my_blocks_register_options_page_markup',
